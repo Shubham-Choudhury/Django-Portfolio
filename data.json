@@ -1,0 +1,101 @@
+{
+    "about": {
+        "first_name": "Doctor Stephen",
+        "last_name": "Strange",
+        "email": "sorcerersupreme@kamartaj.com",
+        "phone": "+91 12345 67890",
+        "address": "177A Bleecker Street, New York City, New York, USA",
+        "zip_code": "10012-1406",
+        "dob": "November 26, 1930",
+        "website": "https://the-sorcerer-supreme.com",
+        "intro":"Brilliant neurosurgeon turned mystic sorcerer. Harnesses the power of magic and the mystical arts to defend Earth from supernatural threats. Wields the Eye of Agamotto and serves as the Sorcerer Supreme, safeguarding reality against mystical dangers.",
+        "heading":"Master of the <span>Mystic Arts</span> & Protector of Reality"
+    },
+    "skills":[
+        {
+            "skill": "Mastery of Mystic Arts",
+            "level": "100",
+            "last_week": "30",
+            "last_month": "92"
+        },
+        {
+            "skill": "Teleportation",
+            "level": "80",
+            "last_week": "86",
+            "last_month": "100"
+        },
+        {
+            "skill": "Astral Projection",
+            "level": "90",
+            "last_week": "32",
+            "last_month": "110"
+        },
+        {
+            "skill": "Dimensional Travel",
+            "level": "90",
+            "last_week": "14",
+            "last_month": "78"
+        },
+        {
+            "skill": "Energy Manipulation",
+            "level": "90",
+            "last_week": "23",
+            "last_month": "52"
+        },
+        {
+            "skill": "Time Manipulation",
+            "level": "90",
+            "last_week": "5",
+            "last_month": "26"
+        }
+    ],
+    "services":[
+        {
+            "service":"Mystic Protection",
+            "description":"Safeguarding reality from supernatural threats and mystical dangers."
+        },
+        {
+            "service":"Healing Expertise",
+            "description":"Utilizing magic for mystical healing and treatment of ailments."
+        },
+        {
+            "service":"Mystic Training",
+            "description":"Guiding and training aspiring sorcerers in the mystical arts."
+        },
+        {
+            "service":"Dimensional Travel",
+            "description":"Assisting in traversing different dimensions and realms."
+        },
+        {
+            "service":"Supernatural Defense",
+            "description":"Defending against magical invasions and disturbances."
+        },
+        {
+            "service":"Artifact Expertise",
+            "description":"Knowledge and utilization of ancient magical artifacts."
+        },
+        {
+            "service":"Astral Projection",
+            "description":"Projecting the astral form for spiritual guidance and exploration."
+        },
+        {
+            "service":"Temporal Manipulation",
+            "description":"Manipulating time to gain insights and alter events."
+        }
+    ],
+    "social_media": {
+        "twitter": "https://twitter.com/",
+        "instagram": "https://www.instagram.com/",
+        "linkedin": "https://www.linkedin.com/"
+    },
+    "developers": {
+        "front_end": {
+            "name": "Colorlib",
+            "website": "https://colorlib.com/"
+        },
+        "back_end": {
+            "name": "Shubham Choudhury",
+            "website": "https://shubham-choudhury.github.io/"
+        }
+    }
+}

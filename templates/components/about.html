@@ -1,0 +1,67 @@
+{% load static %}
+
+<section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row d-flex no-gutters">
+            <div class="col-md-6 col-lg-5 d-flex">
+                <div class="img-about img d-flex align-items-stretch">
+                    <div class="overlay"></div>
+                    {% comment %} {% with aboutIMAGE="images/about-1.jpg" %} {% endcomment %}
+                    {% with aboutIMAGE="images/doctor_strange-about.jpg" %}
+                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url('{% static aboutIMAGE %}');">
+                    {% endwith %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+                <div class="py-md-5">
+                    <div class="row justify-content-start pb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <span class="subheading">My Intro</span>
+                            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
+                            <p>{{about.intro}}</p>
+
+                            <ul class="about-info mt-4 px-md-0 px-2">
+                                <li class="d-flex"><span>Name:</span> <span>{{about.first_name}} {{about.last_name}}</span></li>
+                                <li class="d-flex"><span>Date of birth:</span> <span>{{ about.dob }}</span></li>
+                                
+                                <li class="d-flex"><span>Address:</span> <span>{{ about.address }}</span></li>
+                                <li class="d-flex"><span>Zip code:</span> <span>{{ about.zip_code }}</span></li>
+                                <li class="d-flex"><span>Email:</span> <span>{{ about.email }}</span></li>
+                                <li class="d-flex"><span>Phone: </span> <span>{{ about.phone }}</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="my-interest d-lg-flex w-100">
+                                <div class="interest-wrap d-flex align-items-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa-solid fa-music"></span>
+                                    </div>
+                                    <div class="text">Music</div>
+                                </div>
+                                <div class="interest-wrap d-flex align-items-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa-solid fa-book-open"></span>
+                                    </div>
+                                    <div class="text">Reading</div>
+                                </div>
+                                <div class="interest-wrap d-flex align-items-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa-solid fa-user-ninja"></span>
+                                    </div>
+                                    <div class="text">Martial Arts</div>
+                                </div>
+                                <div class="interest-wrap d-flex align-items-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa-brands fa-pagelines"></span>
+                                    </div>
+                                    <div class="text">Gardening</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
